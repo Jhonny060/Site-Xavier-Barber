@@ -6,6 +6,7 @@ Aqui estão algumas imagens do projeto em funcionamento:
 
 <img width="1902" height="894" alt="Captura de tela 2026-06-19 012354" src="https://github.com/user-attachments/assets/12daa4da-0a29-42cc-8999-8292ada0aeb0" />
 <img width="1904" height="673" alt="Captura de tela 2026-06-19 163133" src="https://github.com/user-attachments/assets/73b7dba5-7e0c-4bbc-a0ed-8efc8ee6b8ed" />
+<img width="1900" height="728" alt="Captura de tela 2026-06-19 171849" src="https://github.com/user-attachments/assets/a9f8917e-73d7-459d-b11d-d698aed70123" />
 
 ---
 
