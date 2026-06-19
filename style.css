@@ -146,7 +146,7 @@ nav{
 .sescolha{
     text-align: center;
     color: white;
-    font-size: 32px;
+    font-size: 25px;
     margin-bottom: 30px;
 }
 
@@ -205,6 +205,36 @@ nav{
     margin-top: 10px;
 }
 
+/* GALERIA */
+.quarto{
+    background-color: #0D0D0F;
+}
+
+.titulo-galeria{
+    color: #E49310;
+    text-align: center;
+    margin-bottom: 10px;    
+}
+
+.galeria-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.galeria-fotos img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.galeria-fotos img:hover{
+    transform: scale(1.05);
+}
 
 /* FOOTER */
 footer{
