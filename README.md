@@ -1,49 +1,92 @@
-<img width="1902" height="894" alt="image" src="https://github.com/user-attachments/assets/82477d69-c2ab-4bb6-9a4c-406930967860" />
-
 # 💈 Xavier Barber Club
 
-Site institucional desenvolvido para a barbearia **Xavier Barber Club**, com foco em apresentação dos serviços, experiência do cliente e agendamento online.
+## 📸 Preview do projeto
 
-## 🚀 Tecnologias Utilizadas
+Aqui estão algumas imagens do projeto em funcionamento:
 
-* HTML5
-* CSS3
-* Flexbox
-* Media Queries (Responsividade)
+<img width="1902" height="894" alt="Captura de tela 2026-06-19 012354" src="https://github.com/user-attachments/assets/12daa4da-0a29-42cc-8999-8292ada0aeb0" />
+<img width="1904" height="673" alt="Captura de tela 2026-06-19 163133" src="https://github.com/user-attachments/assets/73b7dba5-7e0c-4bbc-a0ed-8efc8ee6b8ed" />
 
-## 📋 Funcionalidades
+---
 
-* Menu de navegação
-* Seção "Sobre"
-* Cards informativos
-* Catálogo de serviços
-* Layout responsivo para dispositivos móveis
-* Efeitos de hover e animações suaves
+## 🧾 Sobre o projeto
+
+Site desenvolvido para uma barbearia fictícia, inspirado em layouts reais de barbearias profissionais.
+
+O projeto tem como objetivo praticar desenvolvimento front-end, criando uma interface moderna, responsiva e com foco em experiência do usuário.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Media Queries (responsividade)
+
+---
+
+## ✨ Funcionalidades
+
+- Menu de navegação com âncoras
+- Seção "Sobre"
+- Cards com diferenciais da barbearia
+- Catálogo completo de serviços
+- Exibição de tempo e valor dos serviços
+- Efeitos hover em cards e botões
+- Layout responsivo para diferentes telas
+
+---
 
 ## 🎨 Design
 
-O projeto utiliza uma identidade visual moderna com tons escuros e detalhes dourados, transmitindo uma aparência premium e profissional.
+O design foi inspirado em barbearias modernas, utilizando:
+
+- Tema escuro (dark mode)
+- Destaques em dourado (#E49310)
+- Cards com efeito de elevação
+- Visual limpo e focado em leitura
+
+---
 
 ## 📱 Responsividade
 
-O site foi desenvolvido para se adaptar a diferentes tamanhos de tela, proporcionando uma boa experiência tanto em computadores quanto em dispositivos móveis.
+O site se adapta a diferentes dispositivos:
 
-## 📂 Estrutura do Projeto
+- Desktop
+- Tablet
+- Mobile
 
-```text
-/
-├── index.html
-├── style.css
-├── imagens/
-│   ├── logo-xavier.png
-│   └── favicon-32.png
-└── README.md
-```
+Usando Flexbox, Grid e Media Queries.
+
+---
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento foram praticados:
+
+- HTML semântico
+- CSS moderno (Flexbox e Grid)
+- Componentização com cards
+- Responsividade
+- Organização de layout
+- Boas práticas de front-end
+
+---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Jhonatan Guilherme da Costa**.
+Desenvolvido por **Jhonatan Guilherme da Costa**
 
-## 📌 Status do Projeto
+---
 
-🚧 Em desenvolvimento
+## 📌 Status do projeto
+
+🚧 Projeto em evolução (estudo de front-end)
+
+---
+
+## 💡 Inspiração
+
+Projeto inspirado em layouts reais de barbearias profissionais.
