@@ -197,6 +197,15 @@ nav{
     text-align: right;
 }
 
+/*alinhamento do tempo e valor*/
+.info-servico{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
 /* FOOTER */
 footer{
     text-align: center;
