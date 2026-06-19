@@ -1,145 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Xavier Barber Club</title>
+
     <link rel="shortcut icon" href="imagens/favicon-32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
+
+<header>
+
     <img src="imagens/logo-xavier.png" alt="logo-xavier" class="logo">
+
     <nav>
+
         <div class="menu-centro">
             <a class="links" href="#sobre">Sobre</a>
             <a class="links" href="#servicos">Serviços</a>
             <a class="links" href="#galeria">Galeria</a>
             <a class="links" href="#contato">Contato</a>
         </div>
+
         <div class="menu-direita">
-            <a class="links" href="#agendamento">Meus Agendamentos</a>
-            <a class="botaomenu agendar" href="#agora">Agendar Agora</a>
+            <a class="links" href="#agendamentos">Meus Agendamentos</a>
+            <a class="botaomenu" href="#agendar">Agendar Agora</a>
         </div>
+
     </nav>
+
 </header>
 
-<div class="segundo">
-    <h4 class="sobre">Sobre Guilherme</h4>
+<main>
+
+<!-- SOBRE -->
+<section id="sobre" class="segundo">
+
+    <h2 class="sobre">Sobre Guilherme</h2>
+
     <div class="lema">
         <p>MAIS QUE CORTAR CABELO</p>
         <p>- É CONSTRUIR CONFIANÇA.</p>
     </div>
-    
+
     <div class="cards">
+
         <div class="card">
             <div class="sobre-icon">✂️</div>
             <h3>Técnica apurada</h3>
             <p>Cada corte é feito com atenção aos detalhes do seu rosto e estilo de vida.</p>
         </div>
-    
+
         <div class="card">
             <div class="sobre-icon">⏱️</div>
             <h3>Pontualidade</h3>
             <p>Agendamento online com horário garantido. Seu tempo importa.</p>
         </div>
-    
+
         <div class="card">
             <div class="sobre-icon">🪒</div>
             <h3>Produtos premium</h3>
             <p>Barba com toalha quente e produtos selecionados para a sua pele.</p>
         </div>
-    
+
         <div class="card">
             <div class="sobre-icon">🤝</div>
             <h3>Atendimento de verdade</h3>
             <p>Você sai daqui com o visual no ponto e a sensação de ter sido bem tratado.</p>
         </div>
+
     </div>
-</div>
-<div class="terceiro">
+
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="terceiro">
+
     <div class="stitulo">
         <h4>Serviços</h4>
     </div>
+
     <div class="sescolha">
         <h1>Escolha seu Serviço</h1>
     </div>
+
     <div class="scards">
+
         <div class="scard">
             <h3 class="servico-oferecido">Corte</h3>
             <h4 class="descricao">Corte</h4>
             <h5 class="tempo">40 min</h5>
             <h3 class="valor">R$ 40,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Barba</h3>
             <h5 class="tempo">30 min</h5>
             <h3 class="valor">R$ 30,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Bigode</h3>
             <h4 class="descricao">Aparar e modelar o bigode.</h4>
             <h5 class="tempo">10 min</h5>
             <h3 class="valor">R$ 5,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Sobrancelha</h3>
             <h4 class="descricao">Design de sobrancelha na navalha.</h4>
             <h5 class="tempo">10 min</h5>
             <h3 class="valor">R$ 10,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Desenho</h3>
             <h4 class="descricao">Desenho / detalhes na lateral.</h4>
             <h5 class="tempo">15 min</h5>
             <h3 class="valor">R$ 15,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Corte + Sobrancelha</h3>
             <h4 class="descricao">Combo: corte + design de sobrancelha.</h4>
             <h5 class="tempo">40 min</h5>
             <h3 class="valor">R$ 45,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Corte + Barba</h3>
             <h4 class="descricao">Combo clássico: corte + barba.</h4>
             <h5 class="tempo">40 min</h5>
             <h3 class="valor">R$ 65,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Corte + Barba + Sobrancelha</h3>
             <h4 class="descricao">Combo completo: corte + barba + sobrancelha.</h4>
             <h5 class="tempo">40 min</h5>
             <h3 class="valor">R$ 75,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Luzes</h3>
             <h4 class="descricao">Calorimetria - luzes (mechas).</h4>
             <h5 class="tempo">90 min</h5>
             <h3 class="valor">R$ 100,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Platinado</h3>
             <h4 class="descricao">Calorimetria - descoloração platinado.</h4>
             <h5 class="tempo">120 min</h5>
             <h3 class="valor">R$ 150,00</h3>
         </div>
+
         <div class="scard">
             <h3 class="servico-oferecido">Pigmentação</h3>
             <h4 class="descricao">Pigmentação capilar (valor do corte à parte).</h4>
             <h5 class="tempo">30 min</h5>
             <h3 class="valor">R$ 20,00</h3>
         </div>
+
         <div class="scard">
-            <h3 class="servico-oferecido">Limpeza de pele </h3>
+            <h3 class="servico-oferecido">Limpeza de pele</h3>
             <h4 class="descricao">Limpeza de pele facial.</h4>
             <h5 class="tempo">30 min</h5>
             <h3 class="valor">R$ 20,00</h3>
         </div>
+
     </div>
-</div>
+
+</section>
+
+</main>
+
 <footer>
-    
+    <p class="creditos">
+        Desenvolvido por <strong>Jhonatan Guilherme Da Costa</strong>
+    </p>
 </footer>
+
 </body>
+
 </html>
