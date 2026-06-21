@@ -4,9 +4,10 @@
 
 Aqui estão algumas imagens do projeto em funcionamento:
 
-<img width="1902" height="894" alt="Captura de tela 2026-06-19 012354" src="https://github.com/user-attachments/assets/12daa4da-0a29-42cc-8999-8292ada0aeb0" />
-<img width="1904" height="673" alt="Captura de tela 2026-06-19 163133" src="https://github.com/user-attachments/assets/73b7dba5-7e0c-4bbc-a0ed-8efc8ee6b8ed" />
-<img width="1900" height="728" alt="Captura de tela 2026-06-19 171849" src="https://github.com/user-attachments/assets/a9f8917e-73d7-459d-b11d-d698aed70123" />
+<img width="1898" height="892" alt="Captura de tela 2026-06-20 232608" src="https://github.com/user-attachments/assets/c90c9193-214f-4147-a62a-f9aa8698dd9d" />
+<img width="1904" height="898" alt="Captura de tela 2026-06-20 232635" src="https://github.com/user-attachments/assets/671ef591-03ff-4db7-8e23-5556d046ca7e" />
+<img width="1900" height="888" alt="Captura de tela 2026-06-20 232659" src="https://github.com/user-attachments/assets/66f279dc-f8fc-4bf8-85f6-eb70cbbbfb3d" />
+
 
 ---
 
