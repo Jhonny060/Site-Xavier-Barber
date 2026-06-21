@@ -13,7 +13,7 @@ Aqui estão algumas imagens do projeto em funcionamento:
 
 ## 🧾 Sobre o projeto
 
-Site desenvolvido para uma barbearia fictícia, inspirado em layouts reais de barbearias profissionais.
+Site desenvolvido para uma barbearia real, inspirado no layout real da barbearia mas feita completamente por mim (sem plágio de linha de código).
 
 O projeto tem como objetivo praticar desenvolvimento front-end, criando uma interface moderna, responsiva e com foco em experiência do usuário.
 
