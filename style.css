@@ -15,27 +15,34 @@ body{
     min-height: 100vh;
 }
 
-/* HEADER */
+/* HEADER (FIXO AO SCROLL) */
 header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #0D0D0F;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
-    border-bottom: 1px solid #9BA8A5;
-    flex-wrap: wrap;
-}
 
-.logo{
-    max-width: 150px;
-    height: auto;
+    padding: 20px 40px;
+    border-bottom: 1px solid rgba(155, 168, 165, 0.2);
+    flex-wrap: wrap;
 }
 
 /* NAV */
 nav{
     display: flex;
-    width: 100%;
     align-items: center;
-    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px 255px 0px 255px;
+}
+
+/* LOGO */
+.logo{
+    max-width: 150px;
+    height: auto;
 }
 
 /* MENU CENTRO */
@@ -44,6 +51,7 @@ nav{
     gap: 25px;
     margin: 0 auto;
     flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* MENU DIREITA */
@@ -52,6 +60,7 @@ nav{
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* LINKS */
@@ -68,12 +77,13 @@ nav{
 
 /* BOTÃO */
 .botaomenu{
-    background-color: #CA9D42;
-    color: black;
+    background: linear-gradient(135deg, #D2A448, #B88C35);
+    color: #1A1208;
     text-decoration: none;
     padding: 12px 18px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     transition: 0.3s;
 }
 
@@ -89,14 +99,14 @@ nav{
 
 .sobre{
     text-align: center;
-    color: #E49310;
+    color: #D4A64A;
     font-size: 15px;
 }
 
 .lema{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 32px;
+    font-size: 47px;
     color: white;
     margin-top: 10px;
 }
@@ -106,17 +116,18 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 30px;
 }
 
 .card{
-    background-color: #15151A;
+    background-color: #1D1D24;
     border-radius: 20px;
-    padding: 20px;
-    width: 220px;
+    padding: 30px;
+    width: 280px;
+    height: 250px;
     text-align: center;
-    border: 1px solid #333;
+    border: 1px solid #25252d;
     transition: 0.3s;
 }
 
@@ -126,7 +137,13 @@ nav{
 }
 
 .sobre-icon{
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.titulo-card-sobre{
+    color: #D4A64A;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -136,10 +153,9 @@ nav{
     padding: 50px 20px;
 }
 
-/* TITULOS */
 .stitulo{
     text-align: center;
-    color: #E49310;
+    color: #D4A64A;
     margin-bottom: 10px;
 }
 
@@ -159,11 +175,11 @@ nav{
 
 /* CARD SERVIÇOS */
 .scard{
-    background-color: #0D0D0F;
+    background-color: #1D1D24;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
-    border: 1px solid #333;
+    border: 1px solid #25252d;
     transition: 0.3s;
 }
 
@@ -186,18 +202,15 @@ nav{
 
 .tempo{
     font-size: 12px;
-    margin-bottom: 10px;
-    text-align: left;
 }
 
 .valor{
-    color: #E49310;
+    color: #D4A64A;
     font-size: 23px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: right;
 }
 
-/*alinhamento do tempo e valor*/
+/* INFO SERVIÇO */
 .info-servico{
     display: flex;
     justify-content: space-between;
@@ -208,12 +221,13 @@ nav{
 /* GALERIA */
 .quarto{
     background-color: #0D0D0F;
+    padding: 50px 20px;
 }
 
 .titulo-galeria{
-    color: #E49310;
+    color: #D4A64A;
     text-align: center;
-    margin-bottom: 10px;    
+    margin-bottom: 20px;    
 }
 
 .galeria-fotos{
@@ -221,7 +235,6 @@ nav{
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
-    margin-bottom: 10px;
 }
 
 .galeria-fotos img{
