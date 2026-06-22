@@ -36,7 +36,6 @@ nav{
     display: flex;
     align-items: center;
     width: 100%;
-    margin: 0px 255px 0px 255px;
 }
 
 /* LOGO */
@@ -51,7 +50,6 @@ nav{
     gap: 25px;
     margin: 0 auto;
     flex-wrap: wrap;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* MENU DIREITA */
@@ -60,7 +58,6 @@ nav{
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* LINKS */
@@ -83,12 +80,10 @@ nav{
     padding: 12px 18px;
     border-radius: 10px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     transition: 0.3s;
 }
 
 .botaomenu:hover{
-    background-color: #E49310;
     transform: scale(1.05);
 }
 
@@ -106,7 +101,7 @@ nav{
 .lema{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 47px;
+    font-size: 50px;
     color: white;
     margin-top: 40px;
 }
@@ -125,11 +120,9 @@ nav{
     border-radius: 20px;
     padding: 30px;
     width: 280px;
-    height: 250px;
     text-align: center;
     border: 1px solid #25252d;
     transition: 0.3s;
-    margin-bottom: 50px;
 }
 
 .card:hover{
@@ -144,8 +137,6 @@ nav{
 
 .titulo-card-sobre{
     color: #D4A64A;
-    text-align: center;
-    margin-bottom: 10px;
 }
 
 /* SERVIÇOS */
@@ -157,14 +148,15 @@ nav{
 .stitulo{
     text-align: center;
     color: #D4A64A;
-    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .sescolha{
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 50px;
     margin-bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* GRID SERVIÇOS */
@@ -177,58 +169,80 @@ nav{
 /* CARD SERVIÇOS */
 .scard{
     background-color: #1D1D24;
-    padding: 20px;
+    padding: 25px;
     border-radius: 15px;
-    text-align: center;
     border: 1px solid #25252d;
     transition: 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 180px;
 }
 
 .scard:hover{
     transform: translateY(-6px);
-    box-shadow: 0 0 5px #E49310;
+    box-shadow: 0 0 8px #E49310;
 }
 
-/* TEXTO SERVIÇOS */
-.servico-oferecido{
+/* TOPO DO CARD (SERVIÇO + DESCRIÇÃO) */
+.servico-descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+    margin-bottom: 15px;
+    min-height: 70px;
+    justify-content: center;
+}
+
+.servico-descricao h3{
     color: white;
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin: 0;
 }
 
-.descricao{
-    font-size: 14px;
-    margin-bottom: 10px;
+.servico-descricao p{
+    font-size: 13px;
+    color: #9BA8A5;
+    margin: 0;
 }
 
+/* LINHA + RODAPÉ DO CARD */
+.info-servico{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid rgba(155, 168, 165, 0.2);
+}
+
+/* TEMPO E VALOR */
 .tempo{
     font-size: 12px;
 }
 
 .valor{
     color: #D4A64A;
-    font-size: 23px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-/* INFO SERVIÇO */
-.info-servico{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* GALERIA */
 .quarto{
-    background-color: #0D0D0F;
     padding: 50px 20px;
 }
 
 .titulo-galeria{
-    color: #D4A64A;
     text-align: center;
-    margin-bottom: 20px;    
+    color: #D4A64A;
+}
+
+.trabalhos-recentes{
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
 
 .galeria-fotos{
@@ -239,7 +253,8 @@ nav{
 }
 
 .galeria-fotos img{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
@@ -250,15 +265,20 @@ nav{
     transform: scale(1.05);
 }
 
+/* CONTATO */
+.quinto{
+    background-color: #15151A;
+    padding: 50px 20px;
+}
+
 /* FOOTER */
 footer{
     text-align: center;
     padding: 20px;
-    background-color: #0D0D0F;
     border-top: 1px solid #333;
 }
 
-/* RESPONSIVIDADE */
+/* RESPONSIVO */
 @media (max-width: 900px){
 
     header{
@@ -271,10 +291,7 @@ footer{
         gap: 15px;
     }
 
-    .menu-centro{
-        justify-content: center;
-    }
-
+    .menu-centro,
     .menu-direita{
         justify-content: center;
     }
