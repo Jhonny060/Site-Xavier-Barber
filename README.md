@@ -3,10 +3,11 @@
 ## 📸 Preview do projeto
 
 Aqui estão algumas imagens do projeto em funcionamento:
+<img width="1898" height="896" alt="Captura de tela 2026-06-21 214849" src="https://github.com/user-attachments/assets/8e0c68cc-e781-44d8-adef-d3f656af04f3" />
+<img width="1889" height="643" alt="Captura de tela 2026-06-21 214019" src="https://github.com/user-attachments/assets/5091448b-c438-4801-92f2-0b48feb6794d" />
+<img width="1898" height="898" alt="Captura de tela 2026-06-21 214927" src="https://github.com/user-attachments/assets/70ccf126-7904-4527-81a0-b2c3f1e20049" />
 
-<img width="1898" height="892" alt="Captura de tela 2026-06-20 232608" src="https://github.com/user-attachments/assets/c90c9193-214f-4147-a62a-f9aa8698dd9d" />
-<img width="1904" height="898" alt="Captura de tela 2026-06-20 232635" src="https://github.com/user-attachments/assets/671ef591-03ff-4db7-8e23-5556d046ca7e" />
-<img width="1900" height="888" alt="Captura de tela 2026-06-20 232659" src="https://github.com/user-attachments/assets/66f279dc-f8fc-4bf8-85f6-eb70cbbbfb3d" />
+
 
 
 ---
