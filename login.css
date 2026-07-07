@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Inter', system-ui, -apple-system, Segoe UI, sans-serif;
     background: linear-gradient(to right, #121111, #231E15);
     display: flex;
     justify-content: center;
@@ -35,7 +36,7 @@ body{
 
 .bloqueio{
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, Segoe UI, sans-serif;
     text-align: center;
     margin-top: 10px;
 }
@@ -45,11 +46,12 @@ body{
     margin-top: 6px;
 }
 .senha{
+    margin-top: 40px;
     color: #A49FAA;
-    font-size: medium;
+    font-size: small;
 }
 .entrar{    
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, Segoe UI, sans-serif;
     color: black;
     background-color: #BC9038;
     width: 100%;
@@ -73,4 +75,36 @@ body{
     text-align: center;
     color: white;
     border-radius: 5px;
+}
+.barra:hover{
+    
+    box-shadow: 0 0 12px #E49310;
+}
+.box-dica{
+    background-color: #15151A;
+    color: #A49FAA;
+    font-family: 'Inter', system-ui, -apple-system, Segoe UI, sans-serif;
+    font-size: small;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.destaque{
+    background-color: black;
+    color: #BC9038;
+}
+.volta{
+    text-decoration: none;
+    color: #2A2A33;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.volta:hover{
+    color: #BC9038;
 }
