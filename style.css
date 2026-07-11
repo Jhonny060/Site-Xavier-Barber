@@ -243,6 +243,7 @@ nav{
     text-align: center;
     color: white;
     font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .galeria-fotos{
@@ -250,12 +251,13 @@ nav{
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
+    margin-top: 80px;
 }
 
 .galeria-fotos img{
     width: 100%;
-    max-width: 400px;
-    height: 300px;
+    max-width: 330px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
     transition: 0.3s;
@@ -271,11 +273,76 @@ nav{
     padding: 50px 20px;
 }
 
+.titulo-contato{
+    text-align: center;
+    color: #D4A64A;
+}
+
+.reserve{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-motivador{
+    text-align: center;
+}
+/* Agendamento e Reserva de horário */
+.container-agendamento{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    max-width: 650px;
+    margin: 40px auto;
+    background-color: #1D1D24;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px  #0D0D0F;
+}
+
+.menu-agendamento{
+    text-align: center;
+    display: flex;
+    margin: 20px 40px;
+    gap: 40px;
+}   
+
+.item-agendamento{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.arredondar{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #0D0D0F;
+    border: 1px solid #1D1D24;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+.arredondar::after{
+    content: "";
+}
 /* FOOTER */
 footer{
     text-align: center;
     padding: 20px;
     border-top: 1px solid #333;
+}
+
+footer a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 /* RESPONSIVO */
