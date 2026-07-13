@@ -92,6 +92,7 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
+    padding: 8px;
 }
 .destaque{
     background-color: black;
