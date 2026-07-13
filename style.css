@@ -306,7 +306,10 @@ nav{
     text-align: center;
     display: flex;
     margin: 20px 40px;
+    padding: 0px 0px 20px 0px;
     gap: 40px;
+    border-bottom: 1px solid rgba(155, 168, 165, 0.2);
+    flex-wrap: wrap;
 }   
 
 .item-agendamento{
@@ -331,6 +334,9 @@ nav{
 }
 .arredondar::after{
     content: "";
+}
+.admin:hover{
+    color: #E49310;
 }
 /* FOOTER */
 footer{
