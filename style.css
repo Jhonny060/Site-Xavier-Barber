@@ -101,7 +101,7 @@ nav{
 .lema{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: clamp(24px, 6vw, 50px);
     color: white;
     margin-top: 40px;
 }
@@ -119,7 +119,8 @@ nav{
     background-color: #1D1D24;
     border-radius: 20px;
     padding: 30px;
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     text-align: center;
     border: 1px solid #25252d;
     transition: 0.3s;
@@ -154,7 +155,7 @@ nav{
 .sescolha{
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: clamp(24px, 6vw, 50px);
     margin-bottom: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -242,7 +243,7 @@ nav{
 .trabalhos-recentes{
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: clamp(24px, 6vw, 50px);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -282,7 +283,7 @@ nav{
     text-align: center;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: clamp(24px, 6vw, 50px);
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -310,6 +311,7 @@ nav{
     gap: 40px;
     border-bottom: 1px solid rgba(155, 168, 165, 0.2);
     flex-wrap: wrap;
+    justify-content: center;
 }   
 
 .item-agendamento{
@@ -340,14 +342,16 @@ nav{
 }
 /*CONTATO*/
 .container-contato{
-    padding: 40px 300px;
+    padding: 40px clamp(20px, 8vw, 300px);
     border-top: 1px solid rgba(155, 168, 165, 0.2);
     background-color: #15151A;
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: space-between;
 }
 .logo-final img{
-    max-width: auto;
+    max-width: 100%;
     height: 80px;
 }
 .encontre{
@@ -356,6 +360,7 @@ nav{
 .redes{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 25px;
 }
@@ -407,8 +412,44 @@ footer a {
     .menu-direita{
         justify-content: center;
     }
+}
 
-    .lema{
-        font-size: 24px;
+@media (max-width: 600px){
+
+    header{
+        padding: 15px 20px;
+    }
+
+    .segundo,
+    .terceiro,
+    .quarto,
+    .quinto{
+        padding: 30px 15px;
+    }
+
+    .cards,
+    .galeria-fotos{
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .menu-agendamento{
+        margin: 15px 15px;
+        gap: 20px;
+    }
+
+    .container-agendamento{
+        margin: 30px auto;
+    }
+
+    .container-contato{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .logo-final img{
+        height: 60px;
     }
 }
