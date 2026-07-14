@@ -267,7 +267,7 @@ nav{
     transform: scale(1.05);
 }
 
-/* CONTATO */
+/* CONTATO-sla */
 .quinto{
     background-color: #15151A;
     padding: 50px 20px;
@@ -337,6 +337,45 @@ nav{
 }
 .admin:hover{
     color: #E49310;
+}
+/*CONTATO*/
+.container-contato{
+    padding: 40px 300px;
+    border-top: 1px solid rgba(155, 168, 165, 0.2);
+    background-color: #15151A;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-final img{
+    max-width: auto;
+    height: 80px;
+}
+.encontre{
+    color: #B88C35;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+}
+.insta{
+    background-color: #15151A;
+    border: 1px solid #25252d;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: x-large;
+     line-height: 1;
+}
+.whats{
+    background-color: #15151A;
+    border: 1px solid #25252d;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: x-large;
+}
+.endereco{
+    color: #B88C35;
 }
 /* FOOTER */
 footer{
